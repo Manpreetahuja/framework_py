@@ -10,11 +10,11 @@ setup(
 
 name='python-taf',
 version='1.0.0',
-packages=find_packages(where='src'),
+package_dir={"":"src"},
 python_requires='>=3.6',
 install_requires=[
-   'pandas',
-   'numpy'
+   'websockets',
+   'requests'
 ],
 data_files=[('config', ['cfg/data.cfg']),('testData',['resources/testData.yml'])],
 entry_points={  
