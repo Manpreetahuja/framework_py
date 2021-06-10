@@ -2,13 +2,16 @@ from behave import *
 from behave.__main__ import main as behave_main
 from behave.configuration import ConfigError
 import time
+import os
+
 
 from selenium import webdriver
 
 
 @given('user launches chromebowser')
 def launchChrome(context):
-    context.driver=webdriver.Chrome(executable_path="/Users/dillipnayak/python/python-kickstart/src/resources/chromedriver")
+    print()
+    context.driver=webdriver.Chrome(executable_path=f"{os.getcwd()}/resources/chromedriver")
     
 
 

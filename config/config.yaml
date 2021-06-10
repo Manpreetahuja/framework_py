@@ -1,0 +1,5 @@
+execution:
+    report_folder: reports
+    report_format: allure_behave.formatter:AllureFormatter
+    chrome_driver: resources
+    
