@@ -6,7 +6,7 @@ Feature: Recognize FB logo
         Then facebook logo is visible 
         And close the browser
 
-     @Smoke
+     @E2E
     Scenario: view FB logo
         Given user launches chromebowser
         When launches facebook
