@@ -1,5 +1,5 @@
-selenium=3.141.0
-setuptools=41.2.0
-PyYAML=5.4.1
-behave=1.2.6
-allure-behave=2.9.43
+selenium==3.141.0
+setuptools==41.2.0
+PyYAML==5.4.1
+behave==1.2.6
+allure-behave==2.9.43

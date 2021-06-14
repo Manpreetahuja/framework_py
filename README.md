@@ -25,3 +25,5 @@ This is simple test automation project built on python. it primarily uses python
 - **requirement.txt** : this file contains all the libraries required for project installation. **run `pip install -r requirement.txt`** to install all the reuired libraies at once
 
 - **setup.py** : this is the build configuration file needed for building this project and producing a wheel file. this can be used with build commands to build the project and upload to PiPY.
+
+![Pic Project Structure](./resources/Project.png)
